@@ -7,6 +7,7 @@ import RouterComponent from './router';
 import reportWebVitals from './reportWebVitals';
 import "./assets/js/zepto.js";
 import "./assets/styles/reset.css";
+import './assets/icons/index'
 
 ReactDOM.render(
   <React.StrictMode>

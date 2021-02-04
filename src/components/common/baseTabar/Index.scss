@@ -1,0 +1,33 @@
+.tabbar-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 0.98rem;
+    border-top: 0.02rem solid #f4f4f4;
+    font-size: 0;
+    display: flex;
+    justify-content: space-around;
+    z-index: 9999;
+    background: #fff;
+    .tabbar-item {
+        height: 100%;
+        font-size: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: gray;
+        .tabbar-iconbase {
+            width: 0.45rem;
+            height: 0.45rem;
+        }
+        .tabbar-itemtitle {
+            margin-top: 0.06rem;
+            width: 1rem;
+            text-align: center;
+        }
+    }
+    .tabbar-action {
+        color: #7f4395;
+    }
+}
