@@ -9,7 +9,12 @@ export default class Index extends Component {
   render() {
     return (
       <div class="app">
-        <div class={Scss['header']}>Hello World!</div>
+        <ul class="tabbar-container">
+          <a href="javascript:void(0)">
+            <li class="tabbar-item tabbar-action ">
+              <i class="tabbar-iconbase byicon-home">
+              </i> <div class="tabbar-itemtitle">首页</div>
+            </li></a><a href="javascript:void(0)"><li class="tabbar-item"><i class="tabbar-iconbase byicon-classify"></i> <div class="tabbar-itemtitle">分类</div></li></a><a href="javascript:void(0)"><li class="tabbar-item"><i class="tabbar-iconbase byicon-mine"></i> <div class="tabbar-itemtitle">我的</div></li></a></ul>
       </div>
     );
   }
